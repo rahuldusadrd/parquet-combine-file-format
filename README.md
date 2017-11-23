@@ -1,4 +1,4 @@
-# parquet-format
+# Parquet Combine File Format
 This project contains combine file format for Parquet Input Format. This format is useful in a use case where there are lot of small sized parquet files to process.
 
 
