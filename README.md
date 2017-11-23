@@ -11,7 +11,7 @@ Increasing the minimum split size, to reduce the number of map tasks, will not s
 Solution
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-Solution to such scenario is to build CombineFileFormat for parquet files which can club small sized files under one format.
+Solution to such scenario is to build CombineFileFormat for parquet files which can club small sized files under one split, hence reducing the number of tasks spawned.
 
 Input data snapshot
 ----------------------------------------------------------------------------------------------------------------------------------------
