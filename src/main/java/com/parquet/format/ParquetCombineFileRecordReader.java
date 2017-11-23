@@ -85,7 +85,7 @@ public class ParquetCombineFileRecordReader extends RecordReader<Text, Text> {
 		 
 		      for (int index = 0; index<valueCount; index++) {
 		        if (fieldType.isPrimitive()) {
-		        	value.append(fieldName+"~"+g.getValueToString(field, index));
+		        	value.append(fieldName+"~"+g.getValueToString(field, index)+"\t");
 		        }
 		      }
 		    }
