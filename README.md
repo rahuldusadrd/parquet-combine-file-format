@@ -47,7 +47,7 @@ Below out will be produced:-
 3
 
 
-Now use the customize input format to load the data and see the difference:-
+Now use the customized input format to load the data and see the difference:-
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 //import statements
