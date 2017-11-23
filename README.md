@@ -13,7 +13,9 @@ Solution
 
 Solution to such scenario is to build CombineFileFormat for parquet files which can club small sized files under one format.
 
-
+Input data snapshot
+----------------------------------------------------------------------------------------------------------------------------------------
+![alt text](https://github.com/rahuldusadrd/parquet-combine-file-format/blob/master/images/data.png)
 
 
 
